@@ -1,0 +1,28 @@
+{
+    "name": "monsieurluge/eof-demo",
+    "type": "project",
+    "license": "MIT",
+    "description": "East-Oriented Framework demo website",
+    "version": "0.0.1-dev",
+    "authors": [
+        {
+            "name": "Laurent Vergé",
+            "email": "monsieurluge@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "demo\\": "src/"
+        }
+    },
+    "require": {
+        "monsieurluge/eof": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/monsieurluge/eof.git"
+        }
+    ]
+}

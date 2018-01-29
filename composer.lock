@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1638d112a087534b4006140d76ef8694",
+    "packages": [
+        {
+            "name": "monsieurluge/eof",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/monsieurluge/eof.git",
+                "reference": "94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/monsieurluge/eof/zipball/94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af",
+                "reference": "94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "EOF\\": "Core/",
+                    "Website\\": "Website/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Vergé",
+                    "email": "monsieurluge@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "East-Oriented Web Framework",
+            "support": {
+                "source": "https://github.com/monsieurluge/eof/tree/master",
+                "issues": "https://github.com/monsieurluge/eof/issues"
+            },
+            "time": "2017-07-07T11:46:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "monsieurluge/eof": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
