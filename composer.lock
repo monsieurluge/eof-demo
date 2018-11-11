@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "1638d112a087534b4006140d76ef8694",
@@ -12,23 +12,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/monsieurluge/eof.git",
-                "reference": "94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af"
+                "reference": "e16de4a2e32983894a8fb010829494b44bc90dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/monsieurluge/eof/zipball/94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af",
-                "reference": "94aeb7079ee7d596d3ce6b5c6c1ac7b5ea2646af",
+                "url": "https://api.github.com/repos/monsieurluge/eof/zipball/e16de4a2e32983894a8fb010829494b44bc90dfd",
+                "reference": "e16de4a2e32983894a8fb010829494b44bc90dfd",
                 "shasum": ""
+            },
+            "require": {
+                "symfony/http-foundation": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
                     "EOF\\": "Core/",
-                    "Website\\": "Website/"
+                    "UnitTests\\": "tests/UnitTests/"
                 }
             },
             "license": [
-                "MIT"
+                "Unlicense"
             ],
             "authors": [
                 {
@@ -42,7 +48,120 @@
                 "source": "https://github.com/monsieurluge/eof/tree/master",
                 "issues": "https://github.com/monsieurluge/eof/issues"
             },
-            "time": "2017-07-07T11:46:45+00:00"
+            "time": "2018-11-11T22:25:44+00:00"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v4.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "82d494c1492b0dd24bbc5c2d963fb02eb44491af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/82d494c1492b0dd24bbc5c2d963fb02eb44491af",
+                "reference": "82d494c1492b0dd24bbc5c2d963fb02eb44491af",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-mbstring": "~1.1"
+            },
+            "require-dev": {
+                "predis/predis": "~1.0",
+                "symfony/expression-language": "~3.4|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-10-31T09:09:42+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-09-21T13:07:52+00:00"
         }
     ],
     "packages-dev": [],
